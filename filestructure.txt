@@ -1,0 +1,26 @@
+|-- assets
+    |-- images
+        |-- articles
+            |-- img_four.jpg
+            |-- img_one.jpg
+            |-- img_three.jpg
+            |-- img_two.jpg
+        |-- clients
+            |-- img_one.svg
+        |-- header
+            |-- burger.svg
+            |-- logo.svg
+        |-- hero
+            |-- hero.svg
+        |-- services
+            |-- funeral-memorial.svg
+            |-- legal-financial.svg
+            |-- your-health.svg
+            |-- your-legacy.svg
+|-- css
+    |-- reset.css
+    |-- styles.css
+|-- index.html
+|-- js
+    |-- script.js
+|-- README.md
