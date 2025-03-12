@@ -7,6 +7,11 @@
             |-- img_two.jpg
         |-- clients
             |-- img_one.svg
+        |-- footer
+            |-- email.svg
+            |-- instagram.svg
+            |-- logo.svg
+            |-- twitter.svg
         |-- header
             |-- burger.svg
             |-- logo.svg
