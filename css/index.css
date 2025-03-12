@@ -1,0 +1,18 @@
+:root {
+    --black: #1c1c1c;
+    --white: #fff;
+    --border-section: #c4c4c4;
+    --hover-link: #3172b9;
+    --blue: #3172b9;
+    --gray: #787878;
+    --gray-two: #e4e4e4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;;
+}
