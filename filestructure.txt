@@ -1,5 +1,18 @@
 |-- assets
     |-- images
+        |-- articles
+            |-- img__four.jpg
+            |-- img__one.jpg
+            |-- img__three.jpg
+            |-- img__two.jpg
+        |-- clients
+            |-- img__one.jpg
+            |-- img__three.jpg
+            |-- img__two.jpg
+        |-- contacts
+            |-- call.svg
+            |-- email.svg
+            |-- visit.svg
         |-- logo.svg
         |-- services
             |-- funeral-memorial.svg
