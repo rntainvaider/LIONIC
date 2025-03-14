@@ -80,15 +80,10 @@
     margin-bottom: 27px;
 }
 
-.services__card-link:hover .services__card-icon path {
-    fill: var(--white);
-}
-
 .services__card-link {
     border: 1px solid var(--gray-two);
     border-radius: 5px;
     padding: 62px 30px;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -97,14 +92,14 @@
 }
 
 .services__card-link:hover {
-    background: #3172b9;
+    background: var(--blue);
+    border: none;
 }
 
 .services__card-title {
     font-weight: 600;
     font-size: 20px;
     line-height: 130%;
-    color: var(--black);
     margin-bottom: 15px;
 }
 
@@ -113,6 +108,10 @@
     line-height: 150%;
     text-align: center;
     color: var(--gray);
+}
+
+.services__card-link:hover .services__card-icon path {
+    fill: var(--white);
 }
 
 .services__card-link:hover .services__card-title,
@@ -130,12 +129,20 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    /* justify-content: space-between; */
 }
 
-.articles__card-item {
+.articles__card-link {
     border-radius: 5px;
     display: flex;
     flex-basis: calc(50% - 15px);
+    cursor: pointer;
+    height: 180px;
+    transition: 0.3s ease;
+}
+
+.articles__card-link:hover {
+    background: var(--blue);
 }
 
 .articles__card-icon {
@@ -147,13 +154,17 @@
     border-right: 1px solid var(--gray-two);
     border-bottom: 1px solid var(--gray-two);
     border-radius: 0 5px 5px 0;
-    width: 100%;
-    height: 180px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 30px;
+    width: 100%;
 }
+
+.articles__card-link:hover .articles__card-right {
+    border: none;
+}
+
 
 .articles__card-date {
     font-size: 10px;
@@ -173,6 +184,12 @@
     line-height: 150%;
     color: var(--gray);
     max-width: 210px;
+}
+
+.articles__card-link:hover .articles__card-date,
+.articles__card-link:hover .articles__card-title,
+.articles__card-link:hover .articles__card-text {
+    color: var(--white);
 }
 
 /* MAIN SECTION CLIENTS */
