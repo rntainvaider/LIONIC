@@ -347,12 +347,12 @@
         <p class="join__description">
           Take control of your paid subscriptions today!
         </p>
-        <form class="join__form">
+        <form method="post" class="join__form">
           <div class="form__left">
-            <input type="text" placeholder="Name" class="form__input">
-            <input type="text" placeholder="E-mail" class="form__input">
-            <input type="text" placeholder="Phone" class="form__input">
-            <select class="form__select">
+            <input type="text" name="name" placeholder="Name" class="form__input">
+            <input type="email" name="email" placeholder="E-mail" inputmode="email" class="form__input">
+            <input type="tel" name="phone" placeholder="Phone" inputmode="tel" class="form__input">
+            <select name="country" class="form__select">
               <option value="" disabled selected hidden>
                 Сountry
               </option>
@@ -377,7 +377,7 @@
             </select>
           </div>
           <div class="form__right">
-            <textarea placeholder="Comment" class="form__textarea"></textarea>
+            <textarea name="comment" placeholder="Comment" class="form__textarea"></textarea>
             <div class="form__group">
               <div class="form__group-checkbox">
                 <button type="submit" class="form__button button">

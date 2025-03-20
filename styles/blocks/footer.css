@@ -37,7 +37,7 @@
 
 .footer__list {
     display: flex;
-    gap: 32px;
+    gap: 32px; 
     margin-left: 56px;
 }
 
