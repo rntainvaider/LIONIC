@@ -1,5 +1,6 @@
 .services {
     padding: 88px 0 160px 0;
+    border-bottom: 1px solid var(--gray-border);
 }
 
 .services__wrapper {
@@ -38,6 +39,7 @@
 
 .services__card-icon {
     margin-bottom: 14px;
+    color: var(--blue-medium);
 }
 
 .services__card-title {
@@ -55,12 +57,10 @@
 
 .services__card-link:hover {
     background: var(--blue-medium);
-    border: none;
 }
 
-.services__card-link:hover .services__card-icon path {
+.services__card-link:hover .services__card-icon {
     color: var(--white);
-    stroke: var(--white);
 }
 
 .services__card-link:hover .services__card-title {

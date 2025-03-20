@@ -1,0 +1,43 @@
+|-- .gitignore
+|-- assets
+    |-- icons
+        |-- contacts
+            |-- mail.svg
+            |-- phone.svg
+            |-- visit.svg
+        |-- footer
+            |-- sprite.svg
+        |-- hero
+            |-- secure.svg
+        |-- logo.svg
+        |-- services
+            |-- sprite.svg
+    |-- images
+        |-- articles
+            |-- img_four.webp
+            |-- img_one.webp
+            |-- img_three.webp
+            |-- img_two.webp
+        |-- clients
+            |-- img_one .webp
+            |-- img_three.webp
+            |-- img_two.webp
+        |-- hero
+            |-- bg_one.webp
+|-- index.html
+|-- README.md
+|-- styles
+    |-- base.css
+    |-- blocks
+        |-- articles.css
+        |-- clients.css
+        |-- contacts.css
+        |-- footer.css
+        |-- header.css
+        |-- hero.css
+        |-- join.css
+        |-- module.css
+        |-- services.css
+    |-- index.css
+    |-- reset.css
+    |-- variables.css
